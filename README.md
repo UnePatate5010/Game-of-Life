@@ -8,16 +8,18 @@ It implements the [game of life](https://en.wikipedia.org/wiki/Conway%27s_Game_o
 Everything is in `src/main.rs`.
 
 ## How to run
-While in the repository, run the following command to compile the project :
+While in the repository, run the following command to compile the project and run it:
 ```console
 cargo build
+./target/debug/life_game 
 ```
-To compile the project and run it :
+Or simply this command:
 ```console
 cargo run
 ```
 
-To compile the project with "optimizations" :
+To compile the project with "optimizations" and run it:
 ```console
-cargo release
+cargo build --release
+./target/release/life_game 
 ```
